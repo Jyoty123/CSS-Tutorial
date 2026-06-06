@@ -1,3 +1,42 @@
 /* 6つのp要素に適用するスタイルを宣言 */
+p {
+    background-color: blue;
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
 
 /* 6つのli要素に適用するスタイルを宣言 */
+li {
+    color: yellow;
+    background-color: gray;
+    font-size: 16px;
+}
+
+.blue {
+    color: blue;
+}
+
+.back-green {
+    background-color: green;
+}
+
+.back-brown {
+    background: brown;
+}
+
+.font12 {
+    font-size: 12px;
+}
+
+/*コード内容は回答例と異なるが、結果は同じになる。
+文字色や背景色などは、p要素やli要素の基本スタイルで指定するよりも、
+class管理した方が再利用性が高く、HTML側で色を切り替えやすい。
+デメリットは、HTML側のコードが長くなる。
+ただ、再利用性のメリットが大きいので、色はclass管理しよう。
